@@ -1,0 +1,37 @@
+{
+  "genetic_algorithm": {
+    "crossover_method": "uniform",
+    "mutation_method": "gen",
+    "mutation_type": "uniform",
+    "mutation_rate": 0.1,
+    "selection_methods": {
+      "method1": "universal",
+      "method2": "roulette"
+    },
+    "replacement_methods": {
+      "method3": "tournament_deterministic",
+      "method4": "universal"
+    },
+    "k":20,
+    "termination_criteria": "structure",
+    "max_generations": 15,
+    "structure_termination": false,
+    "content_termination": false,
+    "optimal_environment_termination": false,
+    "environment_threshold": 0.9,
+    "selection_weights": {
+      "method1": 0.3,
+      "method2": 0.7
+    },
+    "replacement_weights": {
+      "method3": 0.9,
+      "method4": 0.1
+    },
+    "population_size": 700
+  },
+  "character_class": "Infiltrate",
+  "additional_parameters": {
+    "parameter1": 0.8,
+    "parameter2": 0.2
+  }
+}
